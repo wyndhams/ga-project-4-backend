@@ -25,6 +25,8 @@ class UserSerializer(serializers.ModelSerializer):
 
     data['password'] = make_password(password)
 
+    return data
+
   class Meta:
     model = User 
     fields = ('id', 'email', 'username', 'first_name', 'last_name', 'profile_image', 'password', 'password_confirmation')

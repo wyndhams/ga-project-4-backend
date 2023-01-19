@@ -12,25 +12,23 @@ from .models import Review
 class ReviewListView(APIView):
     permission_classes = (IsAuthenticated, )
 
+    # def get(self, _request):
+
     def post(self, request):
-        # request.data['owner'] = request.user.id
+        request.data['owner'] = request.user.id
         review_to_create = ReviewSerializer(data=request.data)
         try:
             review_to_create.is_valid()
             review_to_create.save()
             return Response(review_to_create.data, status=status.HTTP_201_CREATED)
-        # below is the exception thrown when we miss a required field
         except IntegrityError as e:
             return Response({
                 "detail": str(e),
             }, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
-        # AssertionError occurs when the incorrect type is passed as a value for an existing field
         except AssertionError as e:
             return Response({"detail": str(e)}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
-        # catch all exception
         except:
             return Response("Unprocessable Entity", status=status.HTTP_422_UNPROCESSABLE_ENTITY)
-
 
 class ReviewDetailView(APIView):
     permission_classes = (IsAuthenticated, )
@@ -43,8 +41,8 @@ class ReviewDetailView(APIView):
 
     def put(self, request, pk):
         review_to_edit = self.get_review(pk=pk)
-        # if review_to_edit.owner != request.user:
-            # raise PermissionDenied()
+        if review_to_edit.owner != request.user:
+            raise PermissionDenied()
 
         updated_review = ReviewSerializer(review_to_edit, data=request.data)
         try:
@@ -61,11 +59,11 @@ class ReviewDetailView(APIView):
     def delete(self, request, pk):
         try:
             review_to_delete = self.get_review(pk=pk)
-            # if review_to_delete.owner != request.user:
-                # raise PermissionDenied()
+            if review_to_delete.owner != request.user:
+                raise PermissionDenied()
 
             review_to_delete.delete()
 
             return Response(status=status.HTTP_204_NO_CONTENT)
-        except review.DoesNotExist:
+        except Review.DoesNotExist:
             raise NotFound(detail="Review not found")

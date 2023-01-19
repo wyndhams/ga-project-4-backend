@@ -43,7 +43,6 @@ class ArtistDetailView(APIView):
         return Response(serialized_artist.data, status=status.HTTP_200_OK)
 
     def put(self, request, pk):
-
         artist_to_edit = self.get_artist(pk=pk)
         updated_artist = ArtistSerializer(artist_to_edit, data=request.data)
         try:
@@ -60,6 +59,6 @@ class ArtistDetailView(APIView):
 
     def delete(self, _request, pk):
         print('DELETE ME')
-        artist_to_delete = self.get_artis(pk=pk)
+        artist_to_delete = self.get_artist(pk=pk)
         artist_to_delete.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)

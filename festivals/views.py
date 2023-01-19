@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
 from django.db import IntegrityError
+from django.db.models import Q
 
 from .models import Festival
 from .serializers.common import FestivalSerializer
@@ -68,3 +69,11 @@ class FestivalDetailView(APIView):
         festival_to_delete = self.get_festival(pk=pk)
         festival_to_delete.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+class FestivalSearch(APIView):
+    def get(self, request):      
+        query = request.GET.get('search')
+        print(query)                
+        results = Festival.objects.filter(Q(name__icontains=query) | Q(genres__icontains=query) | Q(artists__icontains=query))
+        serialized_results = FestivalSerializer(results, many=True)
+        return Response(serialized_results.data)
