@@ -1,0 +1,302 @@
+[
+  {
+    "model": "festivals.festival",
+    "pk": 1,
+    "fields": {
+      "name": "Glastonbury Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/galstonbury.jpeg",
+      "artist": 1,
+      "country": "UK",
+      "cost": 250.0,
+      "month": "June",
+      "capactiy": 250000,
+      "owner": 1,
+      "genres": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 2,
+    "fields": {
+      "name": "Waking Life",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/waking-life.jpeg",
+      "artist": 1,
+      "country": "Portugal",
+      "cost": 250.0,
+      "month": "June",
+      "capactiy": 7000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 3,
+    "fields": {
+      "name": "Butik",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/butik.jpeg",
+      "artist": 1,
+      "country": "Slovenia",
+      "cost": 120.0,
+      "month": "July",
+      "capactiy": 5000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 4,
+    "fields": {
+      "name": "Freerotation",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/freerotation.jpeg",
+      "artist": 1,
+      "country": "UK",
+      "cost": 130.0,
+      "month": "July",
+      "capactiy": 1000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 5,
+    "fields": {
+      "name": "Houghton Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/houghton.jpeg",
+      "artist": 1,
+      "country": "UK",
+      "cost": 250.0,
+      "month": "August",
+      "capactiy": 15000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 6,
+    "fields": {
+      "name": "Field Manouevres",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/field-manouevres.jpeg",
+      "artist": 1,
+      "country": "UK",
+      "cost": 180.0,
+      "month": "June",
+      "capactiy": 2000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 7,
+    "fields": {
+      "name": "Gottwood Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/gottwood.jpeg",
+      "artist": 1,
+      "country": "UK",
+      "cost": 180.0,
+      "month": "June",
+      "capactiy": 10000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 8,
+    "fields": {
+      "name": "Nostromo Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/galstonbury.jpeg",
+      "artist": 1,
+      "country": "France",
+      "cost": 120.0,
+      "month": "June",
+      "capactiy": 5000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 9,
+    "fields": {
+      "name": "Sunwaves",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/sunwaves.jpeg",
+      "artist": 1,
+      "country": "Romania",
+      "cost": 180.0,
+      "month": "May",
+      "capactiy": 10000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 10,
+    "fields": {
+      "name": "Horst",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/horst.jpeg",
+      "artist": 1,
+      "country": "Belgium",
+      "cost": 150.0,
+      "month": "May",
+      "capactiy": 7500,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 11,
+    "fields": {
+      "name": "Bonanza",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/bonanza.jpeg",
+      "artist": 1,
+      "country": "Colombia",
+      "cost": 100.0,
+      "month": "March",
+      "capactiy": 1000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 12,
+    "fields": {
+      "name": "Melt Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/melt.jpeg",
+      "artist": 1,
+      "country": "Germany",
+      "cost": 250.0,
+      "month": "June",
+      "capactiy": 500000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 13,
+    "fields": {
+      "name": "nachtdigital",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/nachti.jpeg",
+      "artist": 1,
+      "country": "Germany",
+      "cost": 175.0,
+      "month": "July",
+      "capactiy": 5000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 14,
+    "fields": {
+      "name": "Sonar",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/sonar.jpeg",
+      "artist": 1,
+      "country": "Spain",
+      "cost": 200.0,
+      "month": "June",
+      "capactiy": 20000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 15,
+    "fields": {
+      "name": "Amsterdam Dance Event",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/ade.jpeg",
+      "artist": 1,
+      "country": "Netherlands",
+      "cost": 110.0,
+      "month": "October",
+      "capactiy": 10000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 16,
+    "fields": {
+      "name": "Boom Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/boom.jpeg",
+      "artist": 1,
+      "country": "Portugal",
+      "cost": 220.0,
+      "month": "July",
+      "capactiy": 15000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 17,
+    "fields": {
+      "name": "Dekmantel",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/dekmantel.jpeg",
+      "artist": 1,
+      "country": "Netherlands",
+      "cost": 180.0,
+      "month": "August",
+      "capactiy": 12000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 18,
+    "fields": {
+      "name": "Kala",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/kala.jpeg",
+      "artist": 1,
+      "country": "Albania",
+      "cost": 160.0,
+      "month": "June",
+      "capactiy": 6000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 19,
+    "fields": {
+      "name": "Meadows in the Mountains",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/meadows.jpeg",
+      "artist": 1,
+      "country": "Bulgaria",
+      "cost": 200.0,
+      "month": "June",
+      "capactiy": 5000,
+      "owner": 1,
+      "genres": [1, 2]
+    }
+  },
+  {
+    "model": "festivals.festival",
+    "pk": 20,
+    "fields": {
+      "name": "Exit Festival",
+      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/serbia.jpeg",
+      "artist": 1,
+      "country": "Serbia",
+      "cost": 180.0,
+      "month": "July",
+      "capactiy": 200000,
+      "owner": 1,
+      "genres": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  }
+]

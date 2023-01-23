@@ -7,6 +7,10 @@ class Festival(models.Model):
         'genres.Genre', related_name="festivals",  blank=True)
     artist = models.ForeignKey(
         'artists.Artist', related_name="festivals", on_delete=models.CASCADE)
+    country = models.CharField(max_length=100)
+    cost = models.DecimalField(max_digits=6, decimal_places=2)
+    month = models.CharField(max_length=30)
+    capacity = models.IntegerField()
     owner = models.ForeignKey(
       'jwt_auth.User',
       related_name="festivals",
