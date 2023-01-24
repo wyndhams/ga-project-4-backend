@@ -8,9 +8,9 @@ class Festival(models.Model):
     artist = models.ForeignKey(
         'artists.Artist', related_name="festivals", on_delete=models.CASCADE)
     country = models.CharField(max_length=100)
-    cost = models.DecimalField(max_digits=6, decimal_places=2)
+    cost = models.CharField(max_length=100)
     month = models.CharField(max_length=30)
-    capacity = models.IntegerField()
+    capacity = models.CharField(max_length=30)
     owner = models.ForeignKey(
       'jwt_auth.User',
       related_name="festivals",
