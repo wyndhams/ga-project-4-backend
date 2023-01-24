@@ -22,9 +22,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/waking-life.jpeg",
       "artist": 1,
       "country": "Portugal",
-      "cost": 250.0,
+      "cost": "£250+",
       "month": "June",
-      "capacity": 7000,
+      "capacity": "5k - 10k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -37,9 +37,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/butik.jpeg",
       "artist": 1,
       "country": "Slovenia",
-      "cost": 120.0,
+      "cost": "$100 - £150",
       "month": "July",
-      "capacity": 5000,
+      "capacity": "1k - 5k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -52,9 +52,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/freerotation.jpeg",
       "artist": 1,
       "country": "UK",
-      "cost": 130.0,
+      "cost": "$100 - £150",
       "month": "July",
-      "capacity": 1000,
+      "capacity": "500 - 1k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -67,9 +67,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/houghton.jpeg",
       "artist": 1,
       "country": "UK",
-      "cost": 250.0,
+      "cost": "£200 - £250",
       "month": "August",
-      "capacity": 15000,
+      "capacity": "10k - 15k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -82,9 +82,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/field-manouevres.jpeg",
       "artist": 1,
       "country": "UK",
-      "cost": 180.0,
+      "cost": "£150 - £200",
       "month": "June",
-      "capacity": 2000,
+      "capacity": "500 - 1k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -97,9 +97,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/gottwood.jpeg",
       "artist": 1,
       "country": "UK",
-      "cost": 180.0,
+      "cost": "£150 - £200",
       "month": "June",
-      "capacity": 10000,
+      "capacity": "1k - 5k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -112,9 +112,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/galstonbury.jpeg",
       "artist": 1,
       "country": "France",
-      "cost": 120.0,
+      "cost": "£25 - £50",
       "month": "June",
-      "capacity": 5000,
+      "capacity": "1k - 5k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -127,9 +127,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/sunwaves.jpeg",
       "artist": 1,
       "country": "Romania",
-      "cost": 180.0,
+      "cost": "£150 - £200",
       "month": "May",
-      "capacity": 10000,
+      "capacity": "5k - 10k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -142,9 +142,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/horst.jpeg",
       "artist": 1,
       "country": "Belgium",
-      "cost": 150.0,
+      "cost": "$100 - £150",
       "month": "May",
-      "capacity": 7500,
+      "capacity": "10k - 15k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -157,9 +157,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/bonanza.jpeg",
       "artist": 1,
       "country": "Colombia",
-      "cost": 100.0,
+      "cost": "£50 - £100",
       "month": "March",
-      "capacity": 1000,
+      "capacity": "500 - 1k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -172,9 +172,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/melt.jpeg",
       "artist": 1,
       "country": "Germany",
-      "cost": 250.0,
+      "cost": "£250+",
       "month": "June",
-      "capacity": 500000,
+      "capacity": "40k - 50k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -187,9 +187,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/nachti.jpeg",
       "artist": 1,
       "country": "Germany",
-      "cost": 175.0,
+      "cost": "£150 - £200",
       "month": "July",
-      "capacity": 5000,
+      "capacity": "1k - 5k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -202,9 +202,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/sonar.jpeg",
       "artist": 1,
       "country": "Spain",
-      "cost": 200.0,
+      "cost": "£200 - £250",
       "month": "June",
-      "capacity": 20000,
+      "capacity": "20k - 30k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -217,9 +217,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/ade.jpeg",
       "artist": 1,
       "country": "Netherlands",
-      "cost": 110.0,
+      "cost": "£150 - £200",
       "month": "October",
-      "capacity": 10000,
+      "capacity": "20k - 30k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -247,9 +247,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/dekmantel.jpeg",
       "artist": 1,
       "country": "Netherlands",
-      "cost": 180.0,
+      "cost": "£150 - £200",
       "month": "August",
-      "capacity": 12000,
+      "capacity": "10k - 15k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -262,9 +262,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/kala.jpeg",
       "artist": 1,
       "country": "Albania",
-      "cost": 160.0,
+      "cost": "£150 - £200",
       "month": "June",
-      "capacity": 6000,
+      "capacity": "1k - 5k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -277,9 +277,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/meadows.jpeg",
       "artist": 1,
       "country": "Bulgaria",
-      "cost": 200.0,
+      "cost": "£150 - £200",
       "month": "June",
-      "capacity": 5000,
+      "capacity": "1k - 5k",
       "owner": 1,
       "genres": [1, 2]
     }
@@ -292,9 +292,9 @@
       "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/serbia.jpeg",
       "artist": 1,
       "country": "Serbia",
-      "cost": 180.0,
+      "cost": "£200 - £250",
       "month": "July",
-      "capacity": 200000,
+      "capacity": "200k+",
       "owner": 1,
       "genres": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     }
