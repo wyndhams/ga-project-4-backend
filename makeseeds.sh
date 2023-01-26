@@ -1,4 +1,3 @@
-python
 #!/bin/bash
 
 echo "creating festivals/seeds.json"

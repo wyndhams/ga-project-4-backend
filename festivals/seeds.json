@@ -1,302 +1,378 @@
 [
-  {
-    "model": "festivals.festival",
-    "pk": 1,
-    "fields": {
-      "name": "Glastonbury Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/galstonbury.jpeg",
-      "artist": 1,
-      "country": "UK",
-      "cost": "£250+",
-      "month": "June",
-      "capacity": "200k+",
-      "owner": 1,
-      "genres": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 2,
-    "fields": {
-      "name": "Waking Life",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/waking-life.jpeg",
-      "artist": 1,
-      "country": "Portugal",
-      "cost": "£250+",
-      "month": "June",
-      "capacity": "5k - 10k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 3,
-    "fields": {
-      "name": "Butik",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/butik.jpeg",
-      "artist": 1,
-      "country": "Slovenia",
-      "cost": "$100 - £150",
-      "month": "July",
-      "capacity": "1k - 5k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 4,
-    "fields": {
-      "name": "Freerotation",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/freerotation.jpeg",
-      "artist": 1,
-      "country": "UK",
-      "cost": "$100 - £150",
-      "month": "July",
-      "capacity": "500 - 1k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 5,
-    "fields": {
-      "name": "Houghton Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/houghton.jpeg",
-      "artist": 1,
-      "country": "UK",
-      "cost": "£200 - £250",
-      "month": "August",
-      "capacity": "10k - 15k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 6,
-    "fields": {
-      "name": "Field Manouevres",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/field-manouevres.jpeg",
-      "artist": 1,
-      "country": "UK",
-      "cost": "£150 - £200",
-      "month": "June",
-      "capacity": "500 - 1k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 7,
-    "fields": {
-      "name": "Gottwood Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/gottwood.jpeg",
-      "artist": 1,
-      "country": "UK",
-      "cost": "£150 - £200",
-      "month": "June",
-      "capacity": "1k - 5k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 8,
-    "fields": {
-      "name": "Nostromo Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/galstonbury.jpeg",
-      "artist": 1,
-      "country": "France",
-      "cost": "£25 - £50",
-      "month": "June",
-      "capacity": "1k - 5k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 9,
-    "fields": {
-      "name": "Sunwaves",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/sunwaves.jpeg",
-      "artist": 1,
-      "country": "Romania",
-      "cost": "£150 - £200",
-      "month": "May",
-      "capacity": "5k - 10k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 10,
-    "fields": {
-      "name": "Horst",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/horst.jpeg",
-      "artist": 1,
-      "country": "Belgium",
-      "cost": "$100 - £150",
-      "month": "May",
-      "capacity": "10k - 15k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 11,
-    "fields": {
-      "name": "Bonanza",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/bonanza.jpeg",
-      "artist": 1,
-      "country": "Colombia",
-      "cost": "£50 - £100",
-      "month": "March",
-      "capacity": "500 - 1k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 12,
-    "fields": {
-      "name": "Melt Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/melt.jpeg",
-      "artist": 1,
-      "country": "Germany",
-      "cost": "£250+",
-      "month": "June",
-      "capacity": "40k - 50k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 13,
-    "fields": {
-      "name": "nachtdigital",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/nachti.jpeg",
-      "artist": 1,
-      "country": "Germany",
-      "cost": "£150 - £200",
-      "month": "July",
-      "capacity": "1k - 5k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 14,
-    "fields": {
-      "name": "Sonar",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/sonar.jpeg",
-      "artist": 1,
-      "country": "Spain",
-      "cost": "£200 - £250",
-      "month": "June",
-      "capacity": "20k - 30k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 15,
-    "fields": {
-      "name": "Amsterdam Dance Event",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/ade.jpeg",
-      "artist": 1,
-      "country": "Netherlands",
-      "cost": "£150 - £200",
-      "month": "October",
-      "capacity": "20k - 30k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 16,
-    "fields": {
-      "name": "Boom Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/boom.jpeg",
-      "artist": 1,
-      "country": "Portugal",
-      "cost": 220.0,
-      "month": "July",
-      "capacity": 15000,
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 17,
-    "fields": {
-      "name": "Dekmantel",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/dekmantel.jpeg",
-      "artist": 1,
-      "country": "Netherlands",
-      "cost": "£150 - £200",
-      "month": "August",
-      "capacity": "10k - 15k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 18,
-    "fields": {
-      "name": "Kala",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/kala.jpeg",
-      "artist": 1,
-      "country": "Albania",
-      "cost": "£150 - £200",
-      "month": "June",
-      "capacity": "1k - 5k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 19,
-    "fields": {
-      "name": "Meadows in the Mountains",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/meadows.jpeg",
-      "artist": 1,
-      "country": "Bulgaria",
-      "cost": "£150 - £200",
-      "month": "June",
-      "capacity": "1k - 5k",
-      "owner": 1,
-      "genres": [1, 2]
-    }
-  },
-  {
-    "model": "festivals.festival",
-    "pk": 20,
-    "fields": {
-      "name": "Exit Festival",
-      "cover_image": "/Users/wyndhamroy/Coding/GA Working Folder/PROJECTS/ga-project-4/ga-project-4-frontend/festi-frontend/src/assets/serbia.jpeg",
-      "artist": 1,
-      "country": "Serbia",
-      "cost": "£200 - £250",
-      "month": "July",
-      "capacity": "200k+",
-      "owner": 1,
-      "genres": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    }
+{
+  "model": "festivals.festival",
+  "pk": 1,
+  "fields": {
+    "name": "Glastonbury Festival",
+    "cover_image": "v1674583425/Festi/glastonbury_vy9ahj.jpg",
+    "artist": 1,
+    "country": "UK",
+    "cost": "£250+",
+    "month": "June",
+    "capacity": "200k+",
+    "owner": 1,
+    "genres": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
   }
+},
+{
+  "model": "festivals.festival",
+  "pk": 2,
+  "fields": {
+    "name": "Waking Life",
+    "cover_image": "v1674583429/Festi/waking-life_oh9d7u.jpg",
+    "artist": 1,
+    "country": "Portugal",
+    "cost": "£250+",
+    "month": "June",
+    "capacity": "5k - 10k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 3,
+  "fields": {
+    "name": "Butik",
+    "cover_image": "v1674583424/Festi/butik_mud5oh.jpg",
+    "artist": 1,
+    "country": "Slovenia",
+    "cost": "$100 - £150",
+    "month": "July",
+    "capacity": "1k - 5k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 4,
+  "fields": {
+    "name": "Freerotation",
+    "cover_image": "v1674583425/Festi/freerotation_tzkl4g.png",
+    "artist": 1,
+    "country": "UK",
+    "cost": "$100 - £150",
+    "month": "July",
+    "capacity": "500 - 1k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 5,
+  "fields": {
+    "name": "Houghton Festival",
+    "cover_image": "v1674583426/Festi/houghton_ypa2ab.jpg",
+    "artist": 1,
+    "country": "UK",
+    "cost": "£200 - £250",
+    "month": "August",
+    "capacity": "10k - 15k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 6,
+  "fields": {
+    "name": "Field Manouevres",
+    "cover_image": "v1674583425/Festi/field-manouevres_xi3cw4.jpg",
+    "artist": 1,
+    "country": "UK",
+    "cost": "£150 - £200",
+    "month": "June",
+    "capacity": "500 - 1k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 7,
+  "fields": {
+    "name": "Gottwood Festival",
+    "cover_image": "v1674583426/Festi/gottwood_gyarnk.jpg",
+    "artist": 1,
+    "country": "UK",
+    "cost": "£150 - £200",
+    "month": "June",
+    "capacity": "1k - 5k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 8,
+  "fields": {
+    "name": "Nostromo Festival",
+    "cover_image": "v1674583428/Festi/nostromo_eii8yv.jpg",
+    "artist": 1,
+    "country": "France",
+    "cost": "£25 - £50",
+    "month": "June",
+    "capacity": "1k - 5k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 9,
+  "fields": {
+    "name": "Sunwaves",
+    "cover_image": "v1674583427/Festi/sunwaves_ybhz70.jpg",
+    "artist": 1,
+    "country": "Romania",
+    "cost": "£150 - £200",
+    "month": "May",
+    "capacity": "5k - 10k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 10,
+  "fields": {
+    "name": "Horst",
+    "cover_image": "v1674583426/Festi/horst_sdvryo.jpg",
+    "artist": 1,
+    "country": "Belgium",
+    "cost": "$100 - £150",
+    "month": "May",
+    "capacity": "10k - 15k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 11,
+  "fields": {
+    "name": "Bonanza",
+    "cover_image": "v1674583425/Festi/bonanza_fzznda.jpg",
+    "artist": 1,
+    "country": "Colombia",
+    "cost": "£50 - £100",
+    "month": "March",
+    "capacity": "500 - 1k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 12,
+  "fields": {
+    "name": "Melt Festival",
+    "cover_image": "v1674583427/Festi/melt_iujn6i.jpg",
+    "artist": 1,
+    "country": "Germany",
+    "cost": "£250+",
+    "month": "June",
+    "capacity": "40k - 50k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 13,
+  "fields": {
+    "name": "Nachtdigital",
+    "cover_image": "v1674583428/Festi/nachti_ldsron.jpg",
+    "artist": 1,
+    "country": "Germany",
+    "cost": "£150 - £200",
+    "month": "July",
+    "capacity": "1k - 5k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 14,
+  "fields": {
+    "name": "Sonar",
+    "cover_image": "v1674583427/Festi/sonar_a2gbve.png",
+    "artist": 1,
+    "country": "Spain",
+    "cost": "£200 - £250",
+    "month": "June",
+    "capacity": "20k - 30k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 15,
+  "fields": {
+    "name": "Amsterdam Dance Event",
+    "cover_image": "v1674583424/Festi/ade_zzxze6.jpg",
+    "artist": 1,
+    "country": "Netherlands",
+    "cost": "£150 - £200",
+    "month": "October",
+    "capacity": "20k - 30k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 16,
+  "fields": {
+    "name": "Boom Festival",
+    "cover_image": "v1674680665/Festi/boom_xgmnzs.jpg",
+    "artist": 1,
+    "country": "Portugal",
+    "cost": "220.0",
+    "month": "July",
+    "capacity": "15000",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 17,
+  "fields": {
+    "name": "Dekmantel",
+    "cover_image": "v1674583424/Festi/dekmantel_xpndvy.jpg",
+    "artist": 1,
+    "country": "Netherlands",
+    "cost": "£150 - £200",
+    "month": "August",
+    "capacity": "10k - 15k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 18,
+  "fields": {
+    "name": "Kala",
+    "cover_image": "v1674583426/Festi/kala_oiyp0w.jpg",
+    "artist": 1,
+    "country": "Albania",
+    "cost": "£150 - £200",
+    "month": "June",
+    "capacity": "1k - 5k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 19,
+  "fields": {
+    "name": "Meadows in the Mountains",
+    "cover_image": "v1674680105/Festi/meadowsm_uedxcj.jpg",
+    "artist": 1,
+    "country": "Bulgaria",
+    "cost": "£150 - £200",
+    "month": "June",
+    "capacity": "1k - 5k",
+    "owner": 1,
+    "genres": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "festivals.festival",
+  "pk": 20,
+  "fields": {
+    "name": "Exit Festival",
+    "cover_image": "v1674636269/Festi/exit_oyv1ie.jpg",
+    "artist": 1,
+    "country": "Serbia",
+    "cost": "£200 - £250",
+    "month": "July",
+    "capacity": "200k+",
+    "owner": 1,
+    "genres": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}
 ]

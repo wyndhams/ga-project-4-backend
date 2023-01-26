@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$390000$pXdm4IQ90jW0rZRu1To81i$JottVMpJpFn4BzhAlk7DfKk0ZxiYJ9sHipDFDeKN5EU=",
-    "last_login": null,
+    "last_login": "2023-01-24T19:01:09.043Z",
     "is_superuser": true,
     "username": "admin",
     "is_staff": true,
@@ -14,6 +14,63 @@
     "first_name": "",
     "last_name": "",
     "profile_image": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$MBnM7jhlKs1CFacMHCPAzA$tLLxFPasn99e3NMVq/+qMP1RUjOwFnBea0g4a39yQ/0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "roy",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-01-25T12:57:30.115Z",
+    "email": "roy@roy.com",
+    "first_name": "roy",
+    "last_name": "roy",
+    "profile_image": "cwvp4kgqif189gxzvfyz",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$5Ua8aIhZP1w1oDBuyo9aXI$vdnfHGJ4Dow81rQdA8sYIpUZ0V+68kU74JmNgkImepk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "dfdffdfdf",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-01-25T14:40:51.036Z",
+    "email": "fdfd@fd.com",
+    "first_name": "fdfd",
+    "last_name": "fdfdfd",
+    "profile_image": "rbkdnnqgedksv5pl7m59",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$cs8L3ty4McNpoCi12PKR0Y$7n34ZUbfHCNaJeb9vroMoLE0uEem0S5kYpBTOu+vnU8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sdfgn",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-01-25T23:46:32.200Z",
+    "email": "wyndham@wyndham.com",
+    "first_name": "efrgthg",
+    "last_name": "fsdgn",
+    "profile_image": "dvogphbafabgtvglboej",
     "groups": [],
     "user_permissions": []
   }
