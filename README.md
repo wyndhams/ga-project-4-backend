@@ -93,3 +93,7 @@ I was aware that working solo would make some of these targets unachievable give
 
 <img src="./README_images/excalidraw-wireframe.png">
 
+Before diving into Visual Studio Code I also had a think about the backend models that I was going to need to create and wrote this down in Excallidraw to explore the different interdependencies. 
+
+<img src="./README_images/app-relationships.png">
+
