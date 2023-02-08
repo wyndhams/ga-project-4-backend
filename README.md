@@ -97,3 +97,10 @@ Before diving into Visual Studio Code I also had a think about the backend model
 
 <img src="./README_images/app-relationships.png">
 
+# Backend
+
+The backend leveraged the Django REST Framework to build the web browsable API's for the application along with PostgreSQL for working with the database. 
+
+# Frontend
+
+I built the frontend of the application using React and a mix of Material UI and CSS for the styling. 
