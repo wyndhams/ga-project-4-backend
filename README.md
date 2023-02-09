@@ -104,3 +104,12 @@ The backend leveraged the Django REST Framework to build the web browsable API's
 # Frontend
 
 I built the frontend of the application using React and a mix of Material UI and CSS for the styling. 
+
+# Build Process
+
+# Challenges / Bugs
+
+# Highlights
+
+# Future Development
+
