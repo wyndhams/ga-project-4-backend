@@ -97,17 +97,89 @@ Before diving into Visual Studio Code I also had a think about the backend model
 
 <img src="./README_images/app-relationships.png">
 
-# Backend
+# Build Process
 
-The backend leveraged the Django REST Framework to build the web browsable API's for the application along with PostgreSQL for working with the database. 
+## Backend
 
-# Frontend
+The backend leveraged a Django REST Framework to build the web browsable API's for the application along with PostgreSQL for database build and manipulation. Firstly, I created a superuser (admin) prior to creating each of the separate apps.
+
+### User Model
+
+```py
+class RegisterView(APIView):
+    def post(self, request):
+        user_to_create = UserSerializer(data=request.data)
+        print(user_to_create)
+        if user_to_create.is_valid():
+            user_to_create.save()
+            return Response({'message': "Registration Successful"}, status=status.HTTP_201_CREATED)
+        return Response(user_to_create.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+
+class LoginView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+        try:
+            user_to_login = User.objects.get(email=email)
+        except User.DoesNotExist:
+            raise PermissionDenied(detail='Invalid Credentials')
+        if not user_to_login.check_password(password):
+            raise PermissionDenied(detail='Invalid Credentials')
+
+        dt = datetime.now() + timedelta(days=7)
+
+        token = jwt.encode(
+            {'sub': user_to_login.id, 'exp': int(dt.strftime('%s'))},
+            settings.SECRET_KEY,
+            algorithm='HS256'
+        )
+
+        return Response({'token': token, 'message': f"Welcome back {user_to_login.username}"})
+```
+This added functionality for registering an account with Festi and also gives the user the ability to login to their account. This uses a post request that I then tested in Postman to check that I was able to register and indeed login. I also tested this within the localhost devtools which showed a stored token within the Network section once logged in. 
+
+### Festivals Model
+
+The main model for my application was the Festivals model. I added functionality into the view.py file which included routing for getting all festival data from the db, getting a single festival and included CRUD functionality. I wanted to gate the CRUD functionality to either admin users or registered non-admins, which I decided to do in the frontend (to be discussed below). I also added search functionality into the backend for which I created a new class as this required a new routing to call from the API. With reference to the below code, the query is a get request that filters the festivals model based upon the user inputted text, genres and artists.
+
+```py
+class FestivalSearch(APIView):
+    def get(self, request):      
+        query = request.GET.get('search')
+        print(query)                
+        results = Festival.objects.filter(Q(name__icontains=query) | Q(genres__icontains=query) | Q(artists__icontains=query))
+        serialized_results = FestivalSerializer(results, many=True)
+        return Response(serialized_results.data)
+```
+
+The festivals model needed to contain a number of different attributes that users could utilise to filter festivals and read information about them. See below models.py file excerpt which illustrates the various characteristics. 
+
+```py
+class Festival(models.Model): 
+    name = models.CharField(max_length=100)
+    cover_image = models.CharField(max_length=300)
+    genres = models.ManyToManyField(
+        'genres.Genre', related_name="festivals",  blank=True)
+    artist = models.ForeignKey(
+        'artists.Artist', related_name="festivals", on_delete=models.CASCADE)
+    country = models.CharField(max_length=100)
+    cost = models.CharField(max_length=100)
+    month = models.CharField(max_length=30)
+    capacity = models.CharField(max_length=30)
+    owner = models.ForeignKey(
+      'jwt_auth.User',
+      related_name="festivals",
+      on_delete=models.CASCADE
+    )
+```
+
+## Frontend
 
 I built the frontend of the application using React and a mix of Material UI and CSS for the styling. 
 
-# Build Process
-
 # Challenges / Bugs
+
+
 
 # Highlights
 
