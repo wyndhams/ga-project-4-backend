@@ -1,6 +1,6 @@
 # General Assembly Project Four - Festi: a Python Django API and React App
 
-# Description
+# Project Overview
 
 This was my final project built on the Immersive Software Engineering course with General Assembly. It was a solo endeavour; all functionality within the site being coded by me from scratch over the course of a week.
 
