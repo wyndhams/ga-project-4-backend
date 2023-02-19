@@ -25,7 +25,7 @@ Clone the backend repo using the SSH Key contained within the Code button above,
 
 ```sh
 git clone <COPIED_SSH_KEY>
-cd <Newly cloned git repo>
+cd <NEWLY_CLONED_GIT_REPO>
 ```
 
 Now you have navigated into the cloned git repo you can run the following commands:
