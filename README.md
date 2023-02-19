@@ -19,7 +19,7 @@ Please find the full deployment of the app [here](https://festi-front-end.netlif
 - Write your code DRY and build your APIs RESTful.
 - Timeframe: 7 days
 
-# Code Installation
+# Getting Started
 
 Clone the backend repo using the SSH Key contained within the Code button above, then follow the steps below in a local Terminal window:
 
