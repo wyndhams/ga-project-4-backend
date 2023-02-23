@@ -2,9 +2,9 @@
 
 # Project Overview
 
-This was my final project built on the Immersive Software Engineering course with General Assembly. It was a solo endeavour; all functionality within the site being coded by me from scratch over the course of a week.
+This was my final project built on the Immersive Software Engineering course with General Assembly. It was a solo endeavor; all functionality within the site being coded by me from scratch over the course of a week.
 
-Festi is a full-stack application designed to help users search for new music festivals for the summer months. This is the first project I have built using Django as the backend framework for api routing and using PostGreSQL to create the database of festivals. The app leverages React as a frontend framework and implements Material UI and CSS for styling.
+Festi is a full-stack application designed to help users search for new music festivals for the summer months. This is the first project I have built using Django as the backend framework for API routing and using PostGreSQL to create the database of festivals. The app leverages React as a frontend framework and implements Material UI and CSS for styling.
 
 Please find the full deployment of the app [here](https://festi-front-end.netlify.app/).
 
@@ -100,7 +100,7 @@ Once I had developed the initial concept for the application I undertook some ma
 
 I therefore set out to create a curated database of festivals, initially for electronic dance music (as this is my own area of interest / passion), that could be perused by an audience to find a new festival for the summer. I also wanted to display information about the festival including location, cost, size, time of year etc. in order for users to make an informed decision. Another concept that I wanted to embed in the design of the application was the ability for users to favourite festivals which could then be displayed in their own account page.
 
-I was aware that working solo would make some of these targets unachievable given the limited time available so I created a wireframe, as below, of each of the pages and features that I wanted to include and (in orange) stretch targets should I have any addtional time at the end fo the project. I used the free online tool, Excallidraw to create the below wireframe.
+I was aware that working solo would make some of these targets unachievable given the limited time available so I created a wireframe, as below, of each of the pages and features that I wanted to include and (in orange) stretch targets should I have any additional time at the end for the project. I used the free online tool, Excallidraw to create the below wireframe.
 
 <img src="./README_images/excalidraw-wireframe.png">
 
@@ -187,7 +187,7 @@ class Festival(models.Model):
 
 ## Frontend
 
-I built the frontend of the application using React and a mix of Material UI and CSS for the styling. I created components for each of the respective pages where information was being displayed then hooked up the backend by adding a proxy in the package.json and creating a separate api.js file which utilised axios for hosting all of the necessary api routing for the app.
+I built the frontend of the application using React and a mix of Material UI and CSS for the styling. I created components for each of the respective pages where information was being displayed then hooked up the backend by adding a proxy in the package.json and creating a separate api.js file which utilised Axios for hosting all of the necessary api routing for the app.
 
 ```js
 const ENDPOINTS = {
@@ -233,7 +233,9 @@ const filterFestivals = () => {
 
 # Challenges
 
-I utilised cloudinary for cloud storage of images uploaded for each of the festivals and user profile pictures. I also wanted to allow users to upload images of their profile and festivals they created to cloudinary to then be available for an api call to display on the Festivals pages and Account page. It took me a while to get this functionality to work.
+One of the challenges in developing the application was integrating the cloud storage functionality for the festival images and user profile pictures using Cloudinary. This involved setting up the necessary API calls and ensuring that the uploaded images were properly stored and retrieved from the Cloudinary server. It required a good understanding of the Cloudinary platform and its documentation, as well as integrating it with the existing application code.
+
+Another challenge was implementing the "favourite" functionality for festivals. This required storing the favourite data as state and then manipulating it based on user interactions. The difficulty was in ensuring that the correct data was stored in state and that it was updated accurately when the user added or removed favorites. With more time, the favourite data could be transferred to separate React components, such as the Account page, to display all of the festivals that the user has favorited. This would require additional logic to ensure that the data was properly transferred between components and that it remained consistent throughout the application.
 
 # Highlights
 
@@ -298,9 +300,19 @@ Then in the return statement I had the following code again using the onClick() 
 )}
 ```
 
+# Key Learnings
+
+During the development of the application, I gained several key learnings that I can apply to future projects. One of the most significant learnings was the use of Django for backend development. Django proved to be a powerful tool for developing the backend code and helped me build the application quickly and efficiently. I can see how this could be very useful for future backend development projects, especially when working with large and complex datasets.
+
+Another learning was developing my understanding of React functionality, particularly the useState and useEffect hooks. These hooks allowed me to manage the state of the application and to trigger specific functions when changes occurred. This proved to be an effective way of managing the user interface and updating the application based on user interactions.
+
+I also developed my knowledge of Material UI for styling the application. I enjoyed using this tool and found that it allowed me to create a visually appealing interface quickly and easily.
+
+Overall, the development of this application provided me with valuable experience and insights into the use of various tools and frameworks for building web applications. By using these tools effectively, I was able to develop a functional and visually appealing application, and I look forward to applying these learnings to future projects.
+
 # Future Development
 
-Givent the challenging timescales associated with this final project I was not able to implement all of the functionality that I wanted to. I have listed below additional functionality that I will be continuing to work on for this application in the future.
+Given the challenging timescales associated with this final project I was not able to implement all of the functionality that I wanted to. I have listed below additional functionality that I will be continuing to work on for this application in the future.
 
 - Enhance filter functionality to enable filtering from the home page using each of the different festival model attributes i.e. Country, Cost, Month etc.
 - Display festivals that the user has favourited on the website within their Account page. At present I have hardcoded this for illustrative purposes. 
